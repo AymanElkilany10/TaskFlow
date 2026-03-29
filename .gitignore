@@ -1,44 +1,24 @@
-# ======================
+# 1. Make sure you have a good .gitignore (replace your current one)
+cat > .gitignore << 'EOF'
 # Visual Studio
-# ======================
 .vs/
 *.suo
 *.user
-*.userosscache
-*.sln.docstates
 
-# ======================
-# .NET Build Outputs
-# ======================
+# .NET Build outputs
 **/bin/
 **/obj/
-**/*.binlog
 
-# ======================
-# NuGet Packages
-# ======================
+# NuGet
 *.nupkg
-*.snupkg
 project.assets.json
 project.nuget.cache
 *.deps.json
-*.runtimeconfig.dev.json
 
-# ======================
 # IDEs
-# ======================
-.idea/                  # Rider / JetBrains
-.vscode/                # Visual Studio Code
+.idea/
+.vscode/
 
-# ======================
-# Logs and Temporary files
-# ======================
+# Logs
 *.log
-logs/
-temp/
-
-# ======================
-# Other common ignores
-# ======================
-.DS_Store
-Thumbs.db
+EOF
