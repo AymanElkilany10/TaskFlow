@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0898B28B-D288-4D38-8657-A35CB018E3FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Domain", "Domain\TaskFlow.Domain.csproj", "{0898B28B-D288-4D38-8657-A35CB018E3FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{0EBA800F-DF3C-4DC3-97AD-7C12C4DCD8D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Application", "Application\TaskFlow.Application.csproj", "{0EBA800F-DF3C-4DC3-97AD-7C12C4DCD8D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{EFE82F1A-A39A-4925-ADAA-C390B0B5D4C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Infrastructure", "Infrastructure\TaskFlow.Infrastructure.csproj", "{EFE82F1A-A39A-4925-ADAA-C390B0B5D4C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{A48B0DBA-B850-4F09-9A46-595C851E9BBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.API", "API\TaskFlow.API.csproj", "{A48B0DBA-B850-4F09-9A46-595C851E9BBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
