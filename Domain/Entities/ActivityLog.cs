@@ -7,7 +7,7 @@ namespace TaskFlow.Domain.Entities
     {
         public Guid TenantId { get; set; }
         public Tenant Tenant { get; set; } = null!;
-        public string UserId { get; set; } = string.Empty;
+        public string? UserId { get; set; }
         public AppUser User { get; set; } = null!;
         public ActionType ActionType { get; set; }
         public string EntityType { get; set; } = string.Empty;
