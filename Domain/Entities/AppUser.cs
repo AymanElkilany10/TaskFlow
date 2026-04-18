@@ -6,6 +6,8 @@ namespace TaskFlow.Domain.Entities
     {
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
+        public string? RefreshToken { get; set; }
+        public DateTime? RefreshTokenExpiryTime { get; set; }
 
         public ICollection<TenantUser> TenantUsers { get; set; } = new List<TenantUser>();
         public ICollection<UserProject> UserProjects { get; set; } = new List<UserProject>();
