@@ -33,6 +33,7 @@ namespace TaskFlow.Infrastructure.Extensions
             services.AddScoped<ITokenService, JwtService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<ITenantService, TenantService>();
 
             // Register JWT Authentication
             var jwtSettings = configuration.GetSection("JwtSettings").Get<JwtSettings>();
